@@ -1,3 +1,16 @@
+sudo apt update -y
+sudo apt install nodejs -y
+nodejs -v
+sudo apt install npm -y
+npm -v
+sudo apt install git
+git --version 	
+sudo npm install pm2@latest -g
+
+
+
+
+
 const http = require('http');
 
 const hostname = '127.0.0.1';
