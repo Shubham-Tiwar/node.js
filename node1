@@ -1,12 +1,11 @@
-#! /bin/bash
-sudo apt update -y
-sudo apt install nodejs -y
-nodejs -v
-sudo apt install npm -y
-npm -v
-sudo apt install git
-git --version 	
-sudo npm install pm2@latest -g
+sh sudo apt update -y
+sh sudo apt install nodejs -y
+sh nodejs -v
+sh sudo apt install npm -y
+sh npm -v
+sh sudo apt install git
+sh git --version 	
+sh sudo npm install pm2@latest -g
 
 
 
